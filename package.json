@@ -1,0 +1,20 @@
+{
+  "name": "worker-mailgun-telegram",
+  "version": "1.0.0",
+  "description": "Cloudflare worker that bounces mail messages to telegram",
+  "main": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240417.0",
+    "vitest": "^0.34.6"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "keywords": ["cloudflare", "worker", "telegram", "email"],
+  "author": "",
+  "license": "ISC"
+}
